@@ -1,0 +1,22 @@
+{
+  "name": "plazobot",
+  "version": "1.0.0",
+  "description": "Bot calculadora de plazos procesales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algope/plazoBOT.git"
+  },
+  "author": "Alejandro Gonzalez Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algope/plazoBOT/issues"
+  },
+  "homepage": "https://github.com/algope/plazoBOT#readme",
+  "dependencies": {
+    "date-fns": "^2.15.0"
+  }
+}
