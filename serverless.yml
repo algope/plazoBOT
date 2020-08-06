@@ -1,0 +1,16 @@
+service: plazobot
+provider:
+    name: aws
+    runtime: nodejs12.x
+    region: eu-west-1
+    stage: dev
+
+
+functions:
+    plazobot:
+        handler: src/handler.plazobot
+        events:
+            - http:
+                path: plazobot
+                method: post
+                cors: true
